@@ -7,6 +7,10 @@
 > 借助目前超火的爬虫框架scrapy,使用mssqlserver做持久化
   从分类（三级分类）到书目到章节内容的全解析，完全可以依照抓取的数据来做一个自己的小说网
 
+#### 环境、架构
+* ![运行环境](https://gitee.com/uploads/images/2017/1130/130154_798e2bb2_1183118.png "config.png")
+* ![开发环境](https://gitee.com/uploads/images/2017/1130/130223_be05580f_1183118.png "version.png")
+* ![章节抓取运行截图](https://gitee.com/uploads/images/2017/1130/130242_123cc57b_1183118.png "runCut.png")
 #### 相关介绍
 
 > 项目目录
