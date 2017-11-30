@@ -35,6 +35,10 @@ class ChapterSpider(scrapy.Spider):
     def parse_content(self, response):
         item=response.meta
         item["tag"]=2
-        item["content"]=response.xpath("//*[@class='p']")[0].xpath("string(.)").extract()[0].strip().encode('utf-8').decode('utf-8')
+        selectors=response.xpath("//*[@class='p']")
+        if selectors!=None and len(selectors)>0:
+            item["content"]=selectors[0].xpath("string(.)").extract()[0].encode('utf-8').decode('utf-8')
+        else:
+            item["content"]="Vip章节"
         yield item
         pass
