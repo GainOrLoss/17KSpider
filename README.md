@@ -18,7 +18,7 @@
 > 采用技术：mssql,scrapy
 
 #### 使用步骤
-1.根据项目文件下/src/db.sql sql脚本，建立相关数据库表,
+> 1.根据项目文件下/src/db.sql sql脚本，建立相关数据库表,
 2.进入主项目目录，开启命令行 键入 
 * scrapy crawl category(一级和二级分类)
 * scrapy crawl category_third（三级分类）
