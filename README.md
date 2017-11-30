@@ -9,8 +9,8 @@
   [章节domain](http://www.17k.com/list/2724746.html);
 - 采用技术：mssql,scrapy;
 - 使用步骤： 
-            * 根据sql脚本，建立相关数据库表
-            * 进入主项目目录，开启命令行 键入 
+             - 根据sql脚本，建立相关数据库表
+             - 进入主项目目录，开启命令行 键入 
                         - scrapy crawl category(一级和二级分类)
                         - scrapy crawl category_third（三级分类）
                         - scrapy crawl book（书目）
