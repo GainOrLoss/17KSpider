@@ -1,4 +1,6 @@
 # 17KSpider
+###免责声明：
+>本项目旨在学习Scrapy爬虫框架和MongoDB数据库，不可使用于商业和个人其他意图。若使用不当，均由个人承担。
 ##17K小说网定向爬虫
 1.主站domain:http://www.17k.com/，分类domain:http://all.17k.com/lib/book.html,章节domain:http://www.17k.com/list/2724746.html;
 2.采用技术：mssql,scrapy;
