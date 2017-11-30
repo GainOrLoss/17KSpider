@@ -8,9 +8,10 @@
   [分类domain](http://all.17k.com/lib/book.html),
   [章节domain](http://www.17k.com/list/2724746.html);
 - 采用技术：mssql,scrapy;
-- 使用步骤： * 根据sql脚本，建立相关数据库表
+- 使用步骤： 
+            * 根据sql脚本，建立相关数据库表
             * 进入主项目目录，开启命令行 键入 
-                        — scrapy crawl category(一级和二级分类)
-                        — scrapy crawl category_third（三级分类）
-                        — scrapy crawl book（书目）
-                        — scrapy crawl chapter（章节内容）
+                        - scrapy crawl category(一级和二级分类)
+                        - scrapy crawl category_third（三级分类）
+                        - scrapy crawl book（书目）
+                        - scrapy crawl chapter（章节内容）
